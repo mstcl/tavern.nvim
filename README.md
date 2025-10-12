@@ -1,4 +1,4 @@
-# tavern
+# tavern.nvim
 
 **A low-hue dark neovim colorscheme**
 
