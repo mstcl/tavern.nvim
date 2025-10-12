@@ -2,7 +2,8 @@
 
 **A low-hue dark neovim colorscheme**
 
-See [vimcolorschemes](https://vimcolorschemes.com/mstcl/tavern) for a preview.
+See [vimcolorschemes](https://vimcolorschemes.com/mstcl/tavern.nvim) for a
+preview.
 
 ## Installation
 
@@ -10,7 +11,7 @@ Using lazy.nvim:
 
 ```lua
 {
-    "mstcl/tavern",
+    "mstcl/tavern.nvim",
     lazy = false,
     priority = 1000,
     config = function()
@@ -83,7 +84,7 @@ colorscheme:
 ```lua
 {
     -- Colorscheme
-    "mstcl/tavern",
+    "mstcl/tavern.nvim",
     lazy = false,
     priority = 1000,
     dependencies = {
