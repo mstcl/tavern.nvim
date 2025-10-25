@@ -7,7 +7,7 @@ local base = require("tavern_base")
 local spec = lush(function()
 	return {
 		-- MINI Tabline
-		MiniTablineFill({ base.TablineFill }),
+		MiniTablineFill { base.TablineFill },
 	}
 end)
 

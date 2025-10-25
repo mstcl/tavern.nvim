@@ -7,8 +7,8 @@ local base = require("tavern_base")
 local spec = lush(function()
 	return {
 		-- NAVIC
-		NavicSeparator({ fg = palette.fg4 }),
-		NavicText({ base.StatusLineNC }),
+		NavicSeparator { fg = palette.fg4 },
+		NavicText { base.StatusLineNC },
 	}
 end)
 

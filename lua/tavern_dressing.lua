@@ -7,7 +7,7 @@ local base = require("tavern_base")
 local spec = lush(function()
 	return {
 		-- DRESSING
-		DressingSelectIdx({ base.Special }),
+		DressingSelectIdx { base.Special },
 	}
 end)
 
