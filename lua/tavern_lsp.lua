@@ -5,10 +5,9 @@ local base = require("tavern_base")
 ---@diagnostic disable: undefined-global
 -- selene: allow(undefined_variable)
 -- stylua: ignore start
-local spec = lush(function(injected_functions)
-	local sym = injected_functions.sym
+local spec = lush(function()
 	return {
-		-- DIAGNOSTICS
+		-- LSP
 		DiagnosticWarn { base.Warning },
 		DiagnosticInfo { base.Info },
 		DiagnosticHint { base.Hint },
@@ -57,23 +56,9 @@ local spec = lush(function(injected_functions)
 		LspInfoList {},
 		LspInfoBorder {},
 
-		-- LSP INLAY HINT
 		LspInlayHint { bg = palette.bg2, fg = palette.fg4},
 		LspCodeLens { fg =  palette.fg4},
 		LspSignatureActiveParameter { gui = "bold" },
-
-		-- SEMANTIC TOKENS
-		sym("@lsp.type.keyword.yaml.ansible") { base.Special },
-		sym("@lsp.type.keyword.lua") { base.SpecialComment },
-		sym("@lsp.type.parameter") { base.Identifier },
-		sym("@lsp.type.property") { base.Identifier },
-		sym("@lsp.type.variable") { base.Identifier },
-		sym("@lsp.type.decorator") { base.Function },
-		sym("@lsp.type.function") { base.Function },
-		sym("@lsp.type.method") { base.Function },
-		sym("@lsp.type.comment") { base.Comment },
-		sym("@lsp.type.macro") { base.Macro },
-		sym("@lsp.type.enumMember") { base.Constant },
 	}
 end)
 return spec
