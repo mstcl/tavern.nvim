@@ -11,7 +11,7 @@ local red = hsluv(20, 46, 56) -- #AC7A73
 local green = hsluv(90, 20, 65) -- #9E9F8C
 local yellow = hsluv(60, 44, 60) -- #A38E6B
 local blue = hsluv(250, 12, 68) -- #A1A6B1
-local magenta = hsluv(340, 15, 68) -- #B6A0A9
+local magenta = hsluv(340, 30, 48) -- #97627b
 local cyan = hsluv(40, 45, 65) -- #C39474
 
 local palette = {
