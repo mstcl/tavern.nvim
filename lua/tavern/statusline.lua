@@ -7,7 +7,9 @@ local base = require("tavern.base")
 -- stylua: ignore start
 local spec = lush(function()
 	return {
-		-- STATUSLINE EXTRAS
+		-- personal statusline
+		StatusLineBold { fg = base.StatusLineNC.fg, gui = "bold" },
+		StatusLineAccent { fg = palette.accent },
 		StatusLineRed { fg = palette.red },
 		StatusLineGreen { fg = palette.green },
 		StatusLineYellow { fg = palette.yellow },
