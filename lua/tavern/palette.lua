@@ -18,16 +18,16 @@ local palette = {
 	accent = accent,
 
 	bg0 = bg,
-	bg1 = bg.abs_li(2), -- #211F1D
-	bg2 = bg.abs_li(5), -- #282523
-	bg3 = bg.abs_da(2), -- #191715
+	bg1 = bg.abs_li(2), -- #1D1B19
+	bg2 = bg.abs_li(5), -- #23211F
+	bg3 = bg.abs_da(2), -- #151311
 
 	fg0 = fg,
-	fg1 = fg.abs_da(10), -- #D1B39A
-	fg2 = fg.abs_da(20), -- #B39983
-	fg3 = fg.abs_da(30), -- #96806D
-	fg4 = fg.abs_da(40), -- #796758
-	fg5 = fg.abs_da(50), -- #5E5043
+	fg1 = fg.abs_da(10), -- #C2A68E
+	fg2 = fg.abs_da(20), -- #A48C78
+	fg3 = fg.abs_da(30), -- #877362
+	fg4 = fg.abs_da(40), -- #6C5B4D
+	fg5 = fg.abs_da(50), -- #514439
 
 	red = red,
 	green = green,
