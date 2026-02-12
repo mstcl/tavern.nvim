@@ -1,13 +1,13 @@
 local lush = require("lush")
 local hsluv = lush.hsluv
 
-local bg = hsluv(55, 11, 10) -- #1D1B19
+local bg = hsluv(55, 11, 8) -- #191715
 
-local fg = hsluv(48, 30, 85) -- #E3D1C3
+local fg = hsluv(48, 30, 80) -- #DBC2AE
 
 local accent = hsluv(18, 80, 60) -- #F0644A
 
-local red = hsluv(20, 46, 56) -- #AC7A73
+local red = hsluv(16, 54, 48) -- #B4554C
 local green = hsluv(90, 20, 65) -- #9E9F8C
 local yellow = hsluv(60, 44, 60) -- #A38E6B
 local blue = hsluv(250, 12, 68) -- #A1A6B1
